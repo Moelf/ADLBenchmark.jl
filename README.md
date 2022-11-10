@@ -4,8 +4,8 @@ Pure Julia entry into the [ADL Benchmarks](https://github.com/iris-hep/adl-bench
 [View the rendered notebook](https://moelf.github.io/ADLBenchmark.jl/)
 
 ## To develope
-1. `git clone https://github.com/Moelf/HSF_Julia_Tutorial/`
-2. `cd HSF_Julia_Tutorial/docs`
+1. `git clone https://github.com/Moelf/ADLBenchmark.jl/`
+2. `cd ADLBenchmark.jl`
 3. `julia --project=.`
 
 then:
