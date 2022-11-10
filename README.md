@@ -4,18 +4,18 @@ Pure Julia entry into the [ADL Benchmarks](https://github.com/iris-hep/adl-bench
 [View the rendered notebook](https://moelf.github.io/ADLBenchmark.jl/)
 
 ## Length of Code comparison
-length of function body after stripping spaces and line breaking, excluding plots and file opening etc.
+length (in chars) of function body after stripping spaces and line breaking, excluding plots and file opening etc.
 
 | Query # | Julia | RDataFrame | coffea |
 |-------- |-------| ---------- | ------ |
-| 1 |28| ---------- | 261 |
-| 2 |93| ---------- | 270 |
-| 3 |178| ---------- | 295 |
-| 4 |126| ---------- | 330 |
-| 5 |594| ---------- | 601 |
-| 6 |633| ---------- | 1231 |
-| 7 |683| ---------- | 663 |
-| 8 |1035| ---------- | 1526 |
+| 1 |28| 81 | 261 |
+| 2 |93| 99 | 270 |
+| 3 |178| 289 | 295 |
+| 4 |126| 255 | 330 |
+| 5 |594| 1249 | 601 |
+| 6 |633| 2307 | 1231 |
+| 7 |683| 2216 | 663 |
+| 8 |1035| 3560 | 1526 |
 
 
 ## To develope
