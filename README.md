@@ -1,7 +1,7 @@
-# ADLBenchmark.jl
+## [ADLBenchmark.jl](https://moelf.github.io/ADLBenchmark.jl/)
 Pure Julia entry into the [ADL Benchmarks](https://github.com/iris-hep/adl-benchmarks-index).
 
-To view the notebook: [https://moelf.github.io/ADLBenchmark.jl/](https://moelf.github.io/ADLBenchmark.jl/)
+[View the rendered notebook](https://moelf.github.io/ADLBenchmark.jl/)
 
 ## To develope
 1. `git clone https://github.com/Moelf/HSF_Julia_Tutorial/`
