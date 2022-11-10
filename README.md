@@ -5,17 +5,18 @@ Pure Julia entry into the [ADL Benchmarks](https://github.com/iris-hep/adl-bench
 
 ## Length of Code comparison
 length (in chars) of function body after stripping spaces and line breaking, excluding plots and file opening etc.
+big query has +3227 from utility functions
 
-| Query # | Julia | RDataFrame | coffea |
-|-------- |-------| ---------- | ------ |
-| 1 |28| 81 | 261 |
-| 2 |93| 99 | 270 |
-| 3 |178| 289 | 295 |
-| 4 |126| 255 | 330 |
-| 5 |594| 1249 | 601 |
-| 6 |633| 2307 | 1231 |
-| 7 |683| 2216 | 663 |
-| 8 |1035| 3560 | 1526 |
+| Query # | Julia | RDataFrame | coffea | bigquery |
+|:----------: |:---------:| :------------: | :--------: |:--------: |
+| 1 |28| 81 | 261 |127 |
+| 2 |93| 99 | 270 |152 |
+| 3 |178| 289 | 295 |171 |
+| 4 |126| 255 | 330 |186 |
+| 5 |594| 1249 | 601 |411 |
+| 6 |633| 2307 | 1231 |642 |
+| 7 |683| 2216 | 663 |569 |
+| 8 |1035| 3560 | 1526 |1665 |
 
 
 ## To develope
