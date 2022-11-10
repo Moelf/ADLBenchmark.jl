@@ -3,6 +3,21 @@ Pure Julia entry into the [ADL Benchmarks](https://github.com/iris-hep/adl-bench
 
 [View the rendered notebook](https://moelf.github.io/ADLBenchmark.jl/)
 
+## Length of Code comparison
+length of function body after stripping spaces and line breaking, excluding plots and file opening etc.
+
+| Query # | Julia | RDataFrame | coffea |
+|-------- |-------| ---------- | ------ |
+| 1 |28| ---------- | 261 |
+| 2 |93| ---------- | 270 |
+| 3 |178| ---------- | 295 |
+| 4 |126| ---------- | 330 |
+| 5 |594| ---------- | 1231 |
+| 6 |633| ---------- | 663 |
+| 7 |683| ---------- | 663 |
+| 8 |1035| ---------- | 663 |
+
+
 ## To develope
 1. `git clone https://github.com/Moelf/ADLBenchmark.jl/`
 2. `cd ADLBenchmark.jl`
