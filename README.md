@@ -1,4 +1,4 @@
-## [ADLBenchmark.jl](https://moelf.github.io/ADLBenchmark.jl/)
+## ADLBenchmark.jl
 Pure Julia entry into the [ADL Benchmarks](https://github.com/iris-hep/adl-benchmarks-index).
 
 [View the rendered notebook](https://moelf.github.io/ADLBenchmark.jl/)
